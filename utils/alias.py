@@ -23,14 +23,9 @@ class Alias:
                         self.primary_to_aliases[primary] = aliases
                         for alias in aliases:
                             self.alias_to_primary[alias] = primary
-                            if alias.startswith("re:"):
-                                raw_pattern = alias[3:]
-                                try:
-                                    pattern = re.compile(raw_pattern)
-                                    if (pattern, primary) not in self.pattern_to_primary:
-                                        self.pattern_to_primary.append((pattern, primary))
-                                except re.error:
-                                    pass
+                            if '*' in alias:
+                                pattern = '^' + re.escape(alias).replace('\\*', '.*') + '$'
+                                self.pattern_to_primary.append((re.compile(pattern), primary))
                         self.alias_to_primary[primary] = primary
 
     def get(self, name: str):
@@ -54,7 +49,7 @@ class Alias:
         Get the primary name by pattern match
         """
         for pattern, primary in self.pattern_to_primary:
-            if pattern.search(name):
+            if pattern.match(name):
                 return primary
         return None
 
@@ -68,12 +63,4 @@ class Alias:
         self.primary_to_aliases[name] = set(aliases)
         for alias in aliases:
             self.alias_to_primary[alias] = name
-            if alias.startswith("re:"):
-                raw_pattern = alias[3:]
-                try:
-                    pattern = re.compile(raw_pattern)
-                    if (pattern, name) not in self.pattern_to_primary:
-                        self.pattern_to_primary.append((pattern, name))
-                except re.error:
-                    pass
         self.alias_to_primary[name] = name
