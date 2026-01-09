@@ -1,5 +1,5 @@
 🕘️更新时间,#genre#
-2026-01-09 18:23:30,https://cdn3.163189.xyz/163189/cctv13$订阅源
+2026-01-10 06:20:49,https://cdn3.163189.xyz/163189/cctv13$订阅源
 
 📺央视频道,#genre#
 CCTV-13,https://cdn3.163189.xyz/163189/cctv13$订阅源
@@ -8,38 +8,8 @@ CCTV-13,https://event.pull.hebtv.com/jishi/cp1.m3u8$订阅源
 CCTV-14,https://event.pull.hebtv.com/jishi/cp2.m3u8#rtsp://103.251.96.71/PLTV/88888888/224/3221225783/10000100000000060000000000726027_0.smil?icpid=SSPID&amp;accounttype=1&amp;limitflux=-1&amp;limitdur=-1&amp;accountinfo=:20240213104135$订阅源
 
 📡卫视频道,#genre#
-浙江卫视,http://k.061899.xyz/k.php?id=zjws$订阅源
-湖南卫视,http://k.061899.xyz/k.php?id=hunws$订阅源
-北京卫视,http://k.061899.xyz/k.php?id=bjws$订阅源
-湖北卫视,http://k.061899.xyz/k.php?id=hubws$订阅源
 黑龙江卫视,http://l.cztvcloud.com/channels/lantian/SXyuyao3/720p.m3u8$订阅源
-黑龙江卫视,http://k.061899.xyz/k.php?id=hljws$订阅源
-安徽卫视,http://k.061899.xyz/k.php?id=ahws$订阅源
-重庆卫视,http://k.061899.xyz/k.php?id=cqws$订阅源
 东方卫视,https://epg.pw/stream/6aec3ea636542c53729b5c9dd290864ab04d4a69d2b9cb7864a9898779915898.m3u8$订阅源
-东方卫视,http://k.061899.xyz/k.php?id=dfws$订阅源
-东南卫视,http://k.061899.xyz/k.php?id=dnws$订阅源
-甘肃卫视,http://k.061899.xyz/k.php?id=gsws$订阅源
 广西卫视,https://hlscdn.liangtv.cn/live/0c4ef3a44b934cacb8b47121dfada66c/d7e04258157b480dae53883cc6f8123b.m3u8$订阅源
-广西卫视,http://k.061899.xyz/k.php?id=gxws$订阅源
-贵州卫视,http://k.061899.xyz/k.php?id=gzws$订阅源
-海南卫视,http://k.061899.xyz/k.php?id=hinws$订阅源
-河北卫视,http://k.061899.xyz/k.php?id=hbws$订阅源
-河南卫视,http://k.061899.xyz/k.php?id=hnws$订阅源
-吉林卫视,http://k.061899.xyz/k.php?id=jlws$订阅源
-江苏卫视,http://k.061899.xyz/k.php?id=jsws$订阅源
-江西卫视,http://k.061899.xyz/k.php?id=jxws$订阅源
 辽宁卫视,https://www.goodiptv.club/douyu/9403738$订阅源
-辽宁卫视,http://k.061899.xyz/k.php?id=lnws$订阅源
-内蒙古卫视,http://k.061899.xyz/k.php?id=nmgws$订阅源
-宁夏卫视,http://k.061899.xyz/k.php?id=nxws$订阅源
-青海卫视,http://k.061899.xyz/k.php?id=qhws$订阅源
 山东卫视,http://l.cztvcloud.com/channels/lantian/SXshengzhou1/720p.m3u8$订阅源
-山东卫视,http://k.061899.xyz/k.php?id=sdws$订阅源
-山西卫视,http://k.061899.xyz/k.php?id=sxiws$订阅源
-陕西卫视,http://k.061899.xyz/k.php?id=sxws$订阅源
-四川卫视,http://k.061899.xyz/k.php?id=scws$订阅源
-深圳卫视,http://k.061899.xyz/k.php?id=szws$订阅源
-天津卫视,http://k.061899.xyz/k.php?id=tjws$订阅源
-新疆卫视,http://k.061899.xyz/k.php?id=xjws$订阅源
-云南卫视,http://k.061899.xyz/k.php?id=ynws$订阅源
